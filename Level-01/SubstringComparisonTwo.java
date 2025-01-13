@@ -20,13 +20,17 @@ class SubstringComparisonTwo
 
     public static String createSubstringUsingCharAt(String str, int start, int end) 
 	{
-        StringBuilder sb = new StringBuilder();
-        for (int i = start; i < end; i++) 
-		{
-            sb.append(str.charAt(i));
-        }
-        return sb.toString();
-    }
+        // Initialize an empty string to build the substring 
+		String substring = "";
+
+		// Loop through the characters from the start index to the end index 
+		for (int i = start; i < end; i++) 
+		{ 
+			// Append each character to the substring 
+			substring += str.charAt(i); 
+		} 
+		return substring; // Return the created substring 
+	}
 
     public static boolean compareStringsUsingCharAt(String str1, String str2) 
 	{
