@@ -34,11 +34,14 @@ class SubstringComparisonTwo
 
     public static boolean compareStringsUsingCharAt(String str1, String str2) 
 	{
-        if (str1.length() != str2.length()) {
+        if (str1.length() != str2.length()) 
+		{
             return false; // Return false if the lengths are not equal
         }
-        for (int i = 0; i < str1.length(); i++) {
-            if (str1.charAt(i) != str2.charAt(i)) {
+        for (int i = 0; i < str1.length(); i++) 
+		{
+            if (str1.charAt(i) != str2.charAt(i)) 
+			{
                 return false; // Return false if a mismatch is found
             }
         }
