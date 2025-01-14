@@ -1,13 +1,13 @@
-import java.util.Scanner;
-
 /*
 Write a program to check if two texts are anagrams and display the result.
 Hint =>
 Anagram is a word or phrase formed by rearranging the same letters to form different words or phrase.
 */
 
+import java.util.Scanner;
 // Creating a Class AnagramChecker to check if two texts are anagrams
-public class AnagramChecker {
+public class AnagramChecker 
+{
 
     // Method to check if two texts are anagrams
     public static boolean areAnagrams(String text1, String text2) {
