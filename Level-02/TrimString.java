@@ -71,7 +71,7 @@ public class TrimString
 
         // Prompting the user to enter a string
         System.out.print("Enter the string: ");
-        // Creating a String variable userInput to store the user input
+        // Creating a String variablesle userInput to store the user input
         String userInput = scanner.nextLine();
 
         // Calling the trimSpaces method to get the trimmed string
