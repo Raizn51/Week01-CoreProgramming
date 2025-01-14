@@ -39,7 +39,7 @@ public class StringLength
         // Prompting the user to enter a string
         System.out.print("Enter the string: ");
         // Creating String variable userInput to store the user input
-        String userInput = scanner.nextLine();
+        String userInput = scanner.next();
 
         // Calling the user-defined method to find the length of the string
         int customLength = findLength(userInput);
