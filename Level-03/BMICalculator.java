@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
 Write a program to calculate the Body Mass Index (BMI) of 10 individuals and display their height, weight, BMI, and status.
 Hint => 
@@ -12,7 +10,9 @@ Create a method to display the 2D String array in a tabular format.
 Finally, the main function takes user inputs, calls the user-defined methods, and displays the results.
 */
 
-public class BMICalculator 
+import java.util.Scanner;
+//Creating a Class BMICalculator to calculate BMI and display height, weight, BMI, and status
+class BMICalculator 
 {
 
     // Method to find BMI and status
