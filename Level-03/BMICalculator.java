@@ -11,6 +11,7 @@ Finally, the main function takes user inputs, calls the user-defined methods, an
 */
 
 import java.util.Scanner;
+
 //Creating a Class BMICalculator to calculate BMI and display height, weight, BMI, and status
 class BMICalculator 
 {
