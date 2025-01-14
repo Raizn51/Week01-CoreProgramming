@@ -8,7 +8,7 @@ uppercase letters to lowercase and vice versa.
 import java.util.Scanner;
 
 // Creating class CaseToggler to toggle the case of each character in a given string
-public class CaseToggler 
+class CaseToggler 
 {
     public static void main(String[] args) 
 	{
