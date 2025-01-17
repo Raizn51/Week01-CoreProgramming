@@ -12,8 +12,8 @@ import java.time.ZonedDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
-//class TimeZones contains methods to display the current time in different time zones
-public class TimeZones 
+//Creating class TimeZones to display the current time in different time zones
+class TimeZones 
 {
 
     // Method to display the current time in a given time zone

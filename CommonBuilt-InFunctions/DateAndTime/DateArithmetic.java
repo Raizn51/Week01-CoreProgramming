@@ -11,7 +11,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-// This class contains the main method to perform date arithmetic
+//Creating class DateArithmetic to perform date arithmetic
 class DateArithmetic 
 {
 
