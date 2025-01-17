@@ -1,7 +1,7 @@
 /**
- * GCD and LCM Calculator Program:
- * Create a program that calculates the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two numbers using functions.
- * Break the program into functions for input, calculation, and output processes.
+GCD and LCM Calculator Program:
+Create a program that calculates the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two numbers using functions.
+Break the program into functions for input, calculation, and output processes.
  */
 
 // Importing the Scanner class from the java.util package for taking user input
@@ -12,7 +12,8 @@ public class GCDAndLCM
 {
     
     // Method to take input from the user
-    public static int[] takeInput() {
+    public static int[] takeInput() 
+	{
         // Creating a Scanner object named scanner to take input from the user
         Scanner scanner = new Scanner(System.in);
         
@@ -37,7 +38,8 @@ public class GCDAndLCM
     }
 
     // Method to calculate the GCD of two given numbers using recursion
-    public static int calculateGCD(int num1, int num2) {
+    public static int calculateGCD(int num1, int num2) 
+	{
         // Base case: if the second number is 0, return the first number
         if (num2 == 0) {
             return num1;

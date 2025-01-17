@@ -75,6 +75,7 @@ public class PalindromeChecker
 
     public static void main(String[] args) 
     {
+		
         // Calling the takeInput() method to get the user input
         String input = takeInput();
 
